@@ -112,8 +112,3 @@ CREATE TABLE IF NOT EXISTS event_rsvps (
     FOREIGN KEY (event_id) REFERENCES events(event_id),
     FOREIGN KEY (attendee_email) REFERENCES alumni(email)
 );
-
-select * from alumni
-
-INSERT INTO alumni (first_name, last_name, email, graduation_year, current_job) 
-VALUES ('Amit', 'Jha', 'amitkjha2403@gmail.com', '2025', 'Junior Editor');
